@@ -4,14 +4,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sume Srpske</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="icon" href="/img/logo.png">
-    
+    <link rel="icon" href="/img/logo.png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
     <div class="container">
       <div class="navbar">
         <img src="/img/logo.png" class="logo" title="Klekovaca Potoci" />
-        <nav>
+        <nav id="navbar">
           <ul>
             <li><a href="/index.html">Pocetna</a></li>
             <li><a href="/nav/zanimljivosti.html">Zanimljivosti</a></li>
@@ -20,7 +25,7 @@
         </nav>
         <img src="/img/menu.png" class="menu-icon" />
       </div>
-      <!-- Prvi oglas --> 
+      <!-- Prvi oglas -->
       <div class="red">
         <div class="red1">
           <h2>Interviju ATV televizije</h2>
@@ -35,14 +40,14 @@
           </button>
         </div>
         <div class="red2">
-            <img src="/img/istocni_drvar.jpg" class="istocni-drvar">
+          <img src="/img/istocni_drvar.jpg" class="istocni-drvar" />
         </div>
       </div>
-<!-- !Prvi oglas -->
+      <!-- !Prvi oglas -->
 
       <!--OBA VIDEA SU UKLONJENA SA YOUTUBE-a -->
 
-<!-- Drugi oglas -->
+      <!-- Drugi oglas -->
       <div class="red">
         <div class="red1">
           <h2>Stigla nova masina za proizvodnju</h2>
@@ -57,10 +62,30 @@
           </button>
         </div>
         <div class="red2">
-            <img src="/img/masina.jpg" class="masina">
+          <img src="/img/masina.jpg" class="masina" />
         </div>
       </div>
       <!-- !Drugi oglas -->
+
+      <!-- Treci oglas -->
+      <div class="red">
+        <div class="red1">
+          <h2>Strajk radnika iz Ribnika</h2>
+          <br />
+          <h3>Pogledajte vise klikom na dugme ispod</h3>
+          <button
+            onclick="location.href='https://www.youtube.com/watch?v=WMyyQ7Uft0U&t=1s'"
+            type="submit"
+            class="button1"
+          >
+            Kliknite za pregled
+          </button>
+        </div>
+        <div class="red2">
+          <img src="/img/strajk_ribnik.jpg" class="masina" />
+        </div>
+      </div>
+      <!-- !Treci oglas -->
     </div>
     <script src="/fun.js"></script>
   </body>
