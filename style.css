@@ -130,4 +130,7 @@ nav ul li a:hoover{
         color:#4eb5f1;
     }
 }
-    
+.navbar aside{
+    padding-left: 3%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}    
