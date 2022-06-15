@@ -111,6 +111,14 @@ nav ul li a:hoover{
     height: 274px;
     border-radius: 18px;
 }
+.navbar aside{
+    padding-left: 3%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}    
+
+/*
+U izradi, problem sa prikazom na manjim uredjajima
+*/
 @media only screen and (max-width: 700px){
     nav ul{
         width: 100%;
@@ -130,7 +138,3 @@ nav ul li a:hoover{
         color:#4eb5f1;
     }
 }
-.navbar aside{
-    padding-left: 3%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}    
